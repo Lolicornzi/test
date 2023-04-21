@@ -49,9 +49,9 @@
 	 <style>
 		p {
 			font-size: 40px;
-			background-color: darkcyan;
+			background-color: white;
 			font-family: fantasy;
-			color: aliceblue;
+			color: black;
 		  
 		}
 	 </style>
@@ -60,31 +60,93 @@
 				width:270px;
 				height:480px;
 				background-color:none;
-				object-fit: none;
-				object-position: 25% 75%;
-				border:10px black;
+				object-fit: fill;
+				border: 10px solid black;
 	
 			}
 	
 		 </style>
+	<style>
+		div.outer {
+        background: rgba(255, 225, 142, 0.755);
+		width:1100px;
+		height:1200px;
+		margin:200px;
+		border-radius: 70px 70px 70px 70px;
+		border: 10px solid peru;
+		}
+	</style>
+	<style>
+		div.transbox {
+		  margin: 400px;
+		  border: 0px solid black;
+		  opacity: 1;
+		}
+		
+		div.transbox p {
+		  margin: 5%;
+		  font-weight: bold;
+		  color: #000000;
+		}
+		</style>
+			<style>
+		div.transbox {
+		  margin: 100px;
+		  border: 0px solid black;
+		  opacity: 1;
+		}
+		
+		div.transbox p {
+		  margin: 5%;
+		  font-weight: bold;
+		  color: #000000;
+		}
+		</style>
+			</style>
+		<style>
+
+        div.outer1 {
+        background: rgb(255, 255, 255);
+		width:500px;
+		height:400px;
+		margin:380px;
+		border-radius: 70px 0px 70px 0px;
+		border: 2px solid black;
+		position: relative; top: -900px; left:-50px;
+		}
+		div.transbox1 {
+		  margin: 20px;
+		  border: 0px solid black;
+		  opacity: 1;
+		}
+		
+		div.transbox p {
+		  margin: 2.5%;
+		  font-weight: none;
+		  color: #000000;
+		}
+		</style>
+
   </head>
 <body>
-
-	<img src="Untitled.png"
-		align="top middle"
-		opacity: 0.5;>
+	<img src="Untitled.png">
  <center>
     <p>"Hello there! I am Ng Zi Jian. Welcome to my webpage!"</p> 
 </center>
-	 <center>
-		<img 
-		id="selfie"
-		src="hot.jpg" alt="Ini adalah kok." />     
-		<img 
-		id="graph"
-		src="无标题.png" alt="Ini adalah kok." /></a>
-   </center>
-
+	 
+   <div class="outer">
+	<div class="transbox">
+	  <img id="selfie"
+	   src="hot.jpg">
+	   <div class="outer1">
+		<div class="transbox1">
+			<h2>To begin, I've a lot of hobbies and I always spend my free time by doing my hobbies. My first hobby is playing video games. 
+				I've been spent most of my free times by playing video games. At the moment, I also love to play sport games too, such as badminton, football and your mom.</h2>
+		</div>
+	  </div>
+	</div>
+  </div>
+<embed name="lostmojo" src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp3" loop="true" hidden="true" autostart="true">
 
 	
 

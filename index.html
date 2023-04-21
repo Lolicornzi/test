@@ -6,7 +6,7 @@
 	 <title> I love cookiezi </title>
 	 <style>
 		body {
-		  background-image:url('Axia.jpg');
+		  background-image:url('anime-landscape-for-desktop-sea-ships-colorful-clouds-scenic-tree-horizon-wallpaper.jpg');
 		  background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: 100% 100%;
@@ -14,10 +14,9 @@
 	 </style>
 	 <style>
 		#start {
-			width:800px;
-			height:1000px;
-			background-color:none;
-			object-fit: none;
+            width: 800px
+			background-color=none;
+			object-fit: contain;
 			object-position: center;
 			border:10px black;
 
@@ -31,17 +30,50 @@
 		  object-fit: cover;
 		}
 	 </style>
+	 <style>
+		.container {
+		 width: 90%;
+		 padding: 20px;
+			 margin: 100px auto;
+			 display: flex;
+			 justify-content: center;
+			}
+		.box
+			{
+			width:400px;
+			height:200px;
+			margin: 0 -100px;
+			box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+			transition: 1s;
+			object-position: left;
+			}
+					
+		.box img {
+			display: block;
+			width: 100%;
+			border-radius: 5px;
+			}
+	
+		.box:hover {
+			transform: scale(1.3);
+			z-index:2;
+			box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+			}
+	 </style>
   </head>
 <body>
- <img src ="hot.jpg">
- <p>"hehehe"</p> 
-     <p><a href="osu.ppy.sh">Visit Your mom!</a></p>
-	 <center>     
-		  <a target="_blank" href="webpage.html">
-		  <img 
-		  id="start"
-		  src="Start.jpg" alt="Ini adalah kok." /></a>
-	 </center>
+    
+	<div class="container">
+	  <div class="box"> 
+	    <a target="_blank" href="webpage.html">
+		<img 
+		id="start"
+		src="Start.jpg" alt="Ini adalah kok." 
+	     /></a>
+	
+	</div>
+ </div>
+
 	
 
 </body>
